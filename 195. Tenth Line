@@ -6,3 +6,4 @@ tail -n +10 file.txt | head -n 1
 //tail -n row1: 打印文件倒数第row1行至末尾
 //head -n row2: 打印文件从开头至第row2
 //tail -n +row3: 打印文件第row3行至末尾
+//-n Number: 从 Number 变量表示的行位置开始读取指定文件。
