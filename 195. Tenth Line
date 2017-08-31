@@ -1,0 +1,8 @@
+//Print 10th line of a file (file.txt)
+//Tip: Considering cases there's no 10th line
+
+Solution1:
+tail -n +10 file.txt | head -n 1
+//tail -n row1: 打印文件倒数第row1行至末尾
+//head -n row2: 打印文件从开头至第row2
+//tail -n +row3: 打印文件第row3行至末尾
